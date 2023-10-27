@@ -1,0 +1,142 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Palatino, URW Palladio L, serif;
+    background-color: #d8b3e7; /* Light Purple */
+    color: #fff; /* White */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile {
+    border: 5px solid #fff; /* White */
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-details {
+    text-align: right;
+}
+
+.profile-details h1 {
+    font-size: 36px;
+    color: #000;
+}
+
+.profile-details h2 {
+    font-size: 29px;
+    color: #000;
+}
+
+/* Content section styles */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    background-color: #4a148c; /* Dark Purple */
+    border-radius: 5px;
+    margin-right: 10px;
+    animation: fadeIn 1s ease; /* Add fade-in animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4a148c; /* Dark Purple */
+    padding: 20px;
+    text-align: left;
+}
+
+footer h2 {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+        .section-content {
+            background-color: #4a148c;
+            color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: black;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #777;
+            color: purple;
+        }
